@@ -6,7 +6,7 @@
 /*   By: gaguiar- <gaguiar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/11 11:11:10 by gaguiar-          #+#    #+#             */
-/*   Updated: 2025/07/11 11:11:18 by gaguiar-         ###   ########.fr       */
+/*   Updated: 2025/07/11 16:52:11 by gaguiar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_recursive_factorial(int nb)
 {
 	int	aux;
 
-	if (nb < 0)
+	if (nb < 0 || nb > 12)
 	{
 		return (0);
 	}
