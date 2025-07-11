@@ -6,7 +6,7 @@
 /*   By: gaguiar- <gaguiar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/11 11:35:55 by gaguiar-          #+#    #+#             */
-/*   Updated: 2025/07/11 11:35:56 by gaguiar-         ###   ########.fr       */
+/*   Updated: 2025/07/11 11:36:40 by gaguiar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ void	ft_putstr(char *str)
 		ft_putchar(*str);
 		str++;
 	}
-
 }
 /*
 #include <unistd.h>
