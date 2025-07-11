@@ -6,7 +6,7 @@
 /*   By: gaguiar- <gaguiar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/10 12:09:47 by gaguiar-          #+#    #+#             */
-/*   Updated: 2025/07/10 15:42:52 by gaguiar-         ###   ########.fr       */
+/*   Updated: 2025/07/11 10:39:48 by gaguiar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,12 @@ void	ft_print_alphabet(void)
 		i++;
 	}
 }
-
+/*
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-/*
 int main (void)
 {
 	ft_print_alphabet();
