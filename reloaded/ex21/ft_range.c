@@ -6,7 +6,7 @@
 /*   By: gaguiar- <gaguiar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 13:58:53 by gaguiar-          #+#    #+#             */
-/*   Updated: 2025/07/12 13:58:53 by gaguiar-         ###   ########.fr       */
+/*   Updated: 2025/07/12 14:54:14 by gaguiar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	*ft_range(int min, int max)
 		return (NULL);
 	}
 	aux = ptr;
-	while (i <= size)
+	while (i < max)
 	{
 		*ptr = i;
 		i++;
