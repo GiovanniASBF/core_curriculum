@@ -6,10 +6,11 @@
 /*   By: gaguiar- <gaguiar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 13:38:16 by gaguiar-          #+#    #+#             */
-/*   Updated: 2025/07/15 13:38:17 by gaguiar-         ###   ########.fr       */
+/*   Updated: 2025/07/15 13:50:07 by gaguiar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	arraylen(char **arr);
 int	ft_count_if(char **tab, int (*f)(char*));
 
 int	ft_count_if(char **tab, int (*f)(char*))
@@ -48,8 +49,8 @@ int	arraylen(char **arr)
 
 /*
 A função recebe um array de strings
-e uma função B.
-Aparentemente essa função B retornará um valor numérico
+e uma função "B".
+Aparentemente essa função "B" retornará um valor numérico
 para cada string que ele recebe
-A função retornará o número de vezes que a função B retornou 1 
+A função retornará o número de vezes que a função B retornou 1 .
 */
