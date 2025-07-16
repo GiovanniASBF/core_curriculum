@@ -6,7 +6,7 @@
 /*   By: gaguiar- <gaguiar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/16 12:58:45 by gaguiar-          #+#    #+#             */
-/*   Updated: 2025/07/16 17:25:02 by gaguiar-         ###   ########.fr       */
+/*   Updated: 2025/07/16 17:36:08 by gaguiar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,10 +54,9 @@ void	ft_display_file(char *file)
 			close(fd);
 			return ;
 		}
+		bytes_read = read(fd, buf, BUF_SIZE);
 	}
 	if (bytes_read == -1)
-	{
 		write(2, "Unable to read the file.\n", 25);
-	}
 	close(fd);
 }
