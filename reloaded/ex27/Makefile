@@ -2,11 +2,9 @@
 NAME = ft_display_file
 
 SRC = ft_display_file.c
-OBJS = $($(SRC:.c=.o))
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
-AR = ar rcs
 RM = rm -f
 
 #Rules
