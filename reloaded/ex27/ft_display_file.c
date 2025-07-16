@@ -6,7 +6,7 @@
 /*   By: gaguiar- <gaguiar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/16 12:58:45 by gaguiar-          #+#    #+#             */
-/*   Updated: 2025/07/16 12:58:55 by gaguiar-         ###   ########.fr       */
+/*   Updated: 2025/07/16 17:25:02 by gaguiar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,8 @@ void	ft_display_file(char *file)
 	ssize_t	bytes_read;
 	char	buf[BUF_SIZE];
 
-	bytes_read = read(fd, buf, BUF_SIZE);
 	fd = open(file, O_RDONLY);
+	bytes_read = read(fd, buf, BUF_SIZE);
 	if (fd == -1)
 	{
 		write(2, "Unable to open file\n", 20);
