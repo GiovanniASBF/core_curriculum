@@ -11,7 +11,7 @@ RM = rm -f
 all: $(NAME)
 
 $(NAME): $(SRC)
-	$(CC) $(CFLAGS) $(SRC) -o $(NAME)
+	$(CC) $(CFLAGS) -o $(NAME) $(SRC)
 
 clean:
 	rm -f *.o
